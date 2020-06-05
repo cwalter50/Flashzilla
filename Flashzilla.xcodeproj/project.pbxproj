@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83687695248A89F5008B9252 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83687694248A89F5008B9252 /* EditCards.swift */; };
 		837F198924873ECF00FD64C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F198824873ECF00FD64C3 /* AppDelegate.swift */; };
 		837F198B24873ECF00FD64C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F198A24873ECF00FD64C3 /* SceneDelegate.swift */; };
 		837F198E24873ECF00FD64C3 /* Flashzilla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 837F198C24873ECF00FD64C3 /* Flashzilla.xcdatamodeld */; };
@@ -14,9 +15,12 @@
 		837F199224873ECF00FD64C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837F199124873ECF00FD64C3 /* Assets.xcassets */; };
 		837F199524873ECF00FD64C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837F199424873ECF00FD64C3 /* Preview Assets.xcassets */; };
 		837F199824873ECF00FD64C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837F199624873ECF00FD64C3 /* LaunchScreen.storyboard */; };
+		83D7B258248824FB00E16E90 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7B257248824FB00E16E90 /* Card.swift */; };
+		83D7B25A2488270A00E16E90 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D7B2592488270A00E16E90 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83687694248A89F5008B9252 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		837F198524873ECF00FD64C3 /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		837F198824873ECF00FD64C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		837F198A24873ECF00FD64C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		837F199424873ECF00FD64C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		837F199724873ECF00FD64C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		837F199924873ECF00FD64C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D7B257248824FB00E16E90 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		83D7B2592488270A00E16E90 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				837F198824873ECF00FD64C3 /* AppDelegate.swift */,
 				837F198A24873ECF00FD64C3 /* SceneDelegate.swift */,
 				837F198F24873ECF00FD64C3 /* ContentView.swift */,
+				83687694248A89F5008B9252 /* EditCards.swift */,
+				83D7B2592488270A00E16E90 /* CardView.swift */,
+				83D7B257248824FB00E16E90 /* Card.swift */,
 				837F199124873ECF00FD64C3 /* Assets.xcassets */,
 				837F199624873ECF00FD64C3 /* LaunchScreen.storyboard */,
 				837F199924873ECF00FD64C3 /* Info.plist */,
@@ -151,7 +160,10 @@
 			files = (
 				837F198E24873ECF00FD64C3 /* Flashzilla.xcdatamodeld in Sources */,
 				837F198924873ECF00FD64C3 /* AppDelegate.swift in Sources */,
+				83D7B258248824FB00E16E90 /* Card.swift in Sources */,
+				83687695248A89F5008B9252 /* EditCards.swift in Sources */,
 				837F199024873ECF00FD64C3 /* ContentView.swift in Sources */,
+				83D7B25A2488270A00E16E90 /* CardView.swift in Sources */,
 				837F198B24873ECF00FD64C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +305,7 @@
 				DEVELOPMENT_TEAM = 84LWTY6T5F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Flashzilla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +326,7 @@
 				DEVELOPMENT_TEAM = 84LWTY6T5F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Flashzilla/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
